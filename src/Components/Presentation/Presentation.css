@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Belleza&family=Lato:wght@100&family=Roboto:wght@100&display=swap");
+
+.presentation {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  padding: 90px;
+}
+
+.presentation__container {
+  background-color: #d3d3d32b;
+  width: 100%;
+}
+
+.presentation__img {
+  width: 100%;
+  object-fit: contain;
+  display: flex;
+  flex: 1;
+  margin-right: 70px;
+}
+.presentation__img img {
+  width: 100%;
+}
+
+.presentation__text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+}
+
+.presentation__text h2 {
+  font-size: 40px;
+  font-family: "Belleza", sans-serif;
+
+  color: #ffa07a;
+}
+
+.presentation__text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  padding: 20px 0;
+}
+.presentation__text button {
+  background-color: #ffa07a !important;
+  width: 150px;
+  font-size: 20px !important;
+}

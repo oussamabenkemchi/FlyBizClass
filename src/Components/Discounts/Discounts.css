@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Belleza&family=Lato:wght@100&family=Roboto:wght@100&display=swap");
+
+.discounts {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0;
+}
+
+.discounts__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.discounts__info h2 {
+  font-family: "Belleza", sans-serif;
+}
+.discounts__info p {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.discounts__cards {
+  display: flex;
+  justify-content: space-around;
+}

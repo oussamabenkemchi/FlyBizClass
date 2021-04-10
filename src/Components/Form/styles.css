@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 50px auto;
+  z-index: 1;
+  position: relative;
+  background-color: white;
+}
+.form__title {
+  padding: 10px;
+}
+.form__title h2 {
+  margin: 0;
+  color: #ffa07a;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+label {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0 !important;
+  color: rgb(143, 141, 141);
+}
+.form__firstRow {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  align-items: center;
+}
+
+.firstRow__radio {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.firstRow__radio span {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(143, 141, 141);
+}
+.radioButtons label {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #010235;
+  font-weight: 600;
+  margin: 0;
+}
+.radioButtons {
+  display: flex;
+  align-items: center;
+}
+.radioButtons input {
+  margin-right: 5px;
+}
+.radioButtons #roundTrip {
+  margin-left: 20px;
+}
+
+.firstRow__dates {
+  display: flex;
+  flex-direction: row;
+  flex: 1.5;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.firstRow__depDate,
+.firstRow__returnDate {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+}
+.firstRow__routes {
+  display: flex;
+  flex-direction: row;
+  flex: 1.5;
+  align-items: center;
+  justify-content: space-evenly;
+}
+select {
+  padding: 6px 3px 6px 3px;
+  font-size: 100%;
+  margin: 0;
+  font-family: "Raleway", "Helvetica Neue", Arial, Verdana, sans-serif;
+  border: 2px solid #e1e1e1;
+  color: #666666;
+  font-size: 13px;
+}
+
+option {
+  padding: 30px;
+  border: 1px solid #e1e1e1;
+  font-family: "Raleway", "Helvetica Neue", Arial, Verdana, sans-serif;
+  color: #666666;
+  font-size: 13px;
+}
+
+.firstRow__outRoute,
+.firstRow__returnRoute {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+  /*   padding: 10px;
+ */
+}
+
+.radioButtons input {
+  font-size: 100%;
+  margin: 0;
+  font-family: "Raleway", "Helvetica Neue", Arial, Verdana, sans-serif;
+  border: 2px solid #e1e1e1;
+  color: #666666;
+  font-size: 13px;
+  width: 15%;
+}
+
+input {
+  padding: 6px 3px 6px 10px;
+  font-size: 100%;
+  margin: 0;
+  font-family: "Raleway", "Helvetica Neue", Arial, Verdana, sans-serif;
+  border: 2px solid #e1e1e1;
+  color: #666666;
+  font-size: 13px;
+  width: 100%;
+}
+
+.form__secondRow {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  align-items: center;
+}
+.form__secondRow input {
+  width: 90%;
+}
+
+.form__secondRow select {
+  width: 90%;
+}
+
+.form__thirdRow {
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.seconRow__fullName,
+.seconRow__number,
+.seconRow__email {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.seconRow__adults,
+.seconRow__children {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+}
+
+.ThirdRow__flight {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.ThirdRow__comment {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+
+.secondRow__submit {
+  display: flex;
+  flex: 0.5;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.secondRow__submit label {
+  visibility: hidden;
+}
+
+.form__thirdRow #flight {
+  width: 90%;
+}
+.form__thirdRow #comment {
+  width: 95%;
+}
+
+form p {
+  font-size: 15px;
+  color: #ff0000e8;
+  margin: 0 !important;
+}
+
+/* .input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.712);
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+ */

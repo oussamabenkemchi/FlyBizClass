@@ -1,0 +1,54 @@
+.mySlide {
+  height: 700px !important;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.slide-image {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mySlide .content {
+  position: relative;
+  z-index: 2;
+}
+.imageSlider {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner__fadeBottom {
+  width: 100%;
+  height: 199px;
+  position: fixed;
+  bottom: 0;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #222
+  );
+  border: none;
+}
+
+p {
+  font-size: 30px;
+}

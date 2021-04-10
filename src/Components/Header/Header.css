@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Roboto:wght@300&display=swap");
+
+.header {
+  height: 60px;
+  width: 100%;
+  padding: 50px 80px 20px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 99;
+  margin: 0 auto;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.header_scroll {
+  height: 60px;
+  width: 100%;
+  padding: 20px 80px 20px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 99;
+  margin: 0 auto;
+  background-color: lightsalmon;
+}
+
+a {
+  cursor: pointer;
+}
+.header__leftSection_title {
+  font-family: "Allura", cursive;
+  font-size: 35px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.header__leftSection_title:hover {
+  text-decoration: none;
+  color: #222;
+}
+
+.header__MiddleSection {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
+  width: 50%;
+}
+
+.header__MiddleSection a {
+  color: #222;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: 600;
+}
+
+.header__RightSection h2 {
+  height: 100%;
+  font-size: 10px;
+  color: #222;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin: 0;
+}
+
+.header__MiddleSection_link:hover {
+  text-decoration: none;
+  color: #fea443;
+  transition: all 220ms ease-in-out;
+}
