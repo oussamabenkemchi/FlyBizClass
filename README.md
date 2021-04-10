@@ -11,7 +11,7 @@ FlyBizClass is a kind of booking websites that helps travelers to book for disco
 - framer motion
 
 
-### The web site shoul look like this
+### The web site should look like this
 
 <img src="flyBiz_mockup.png" />
 
