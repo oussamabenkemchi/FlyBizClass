@@ -13,6 +13,7 @@ FlyBizClass is a kind of booking websites that helps travelers to book for disco
 
 ### The web site shoul look like this
 
+<img src="flyBiz_mockup.png" />
 
 
 
